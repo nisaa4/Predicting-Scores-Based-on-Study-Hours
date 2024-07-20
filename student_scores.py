@@ -1,14 +1,8 @@
 # import all the libraries
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
-print('pandas version: ', pd.__version__)
-print('matplotlib version: ', matplotlib.__version__)
-print('seaborn version: ', sns.__version__)
-print('numpy version: ', np.__version__)
 
 data=pd.read_csv('student_scores.csv')
 data.head()
